@@ -55,8 +55,7 @@ const defaultMenu = {
   body: '│ ⎙ %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
-*%npmname@^%version*
-${'```%npmdesc```'}
+*shirobotz-md@^%version*
 `,
 }
 let handler = async (m, { conn, usedPrefix: _p, command }) => {
