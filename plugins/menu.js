@@ -52,7 +52,7 @@ const defaultMenu = {
 ┗━━━━━━ꕥ
 %readmore`.trimStart(),
   header: '╭─「 %category 」',
-  body: '│ ⎙ %cmd %islimit %isPremium',
+  body: '│ ツ %cmd %islimit %isPremium',
   footer: '╰────\n',
   after: `
 *shirobotz-md@^%version*
@@ -163,7 +163,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
          hydratedTemplate: {
            hydratedContentText: text.trim(),
            locationMessage: { 
-           jpegThumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer() },
+           jpegThumbnail: await (await fetch(`https://telegra.ph/file/cd3f500d4facd2a984281.jpg`)).buffer() },
            hydratedFooterText: wm,
            hydratedButtons: [{
              urlButton: {
@@ -195,7 +195,7 @@ let handler = async (m, { conn, usedPrefix: _p, command }) => {
            },
                {
              quickReplyButton: {
-               displayText: 'YukiBot 𝚝𝚎𝚊𝚖',
+               displayText: 'ꜱʜɪʀᴏ-ᴍᴅ ᴛᴇᴀᴍ',
                id: '.tqto',
              }
            }]
